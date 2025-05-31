@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akademia Superbohaterów: Centrum Misji</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #fbbf24, #22d3ee);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hidden-content {
+            display: none;
+            transition: all 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-200">
+
+    <header class="bg-slate-800/80 backdrop-blur-sm sticky top-0 z-10 py-4 shadow-lg shadow-cyan-500/10">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold gradient-text">Akademia Superbohaterów</h1>
+            <p class="text-slate-400 mt-1">Centrum Misji i Testów Mocy</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+        <div class="grid gap-6 md:gap-8" id="experiment-grid">
+
+            <article class="bg-slate-800 rounded-lg shadow-md overflow-hidden border border-slate-700">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-amber-400 mb-3">💥 Test 1: Super-Zmysły w Akcji</h2>
+                    <div class="prose prose-invert max-w-none text-slate-300">
+                        <p class="font-semibold text-lg">Twoja Misja, Młody Bohaterze (Wyzwanie):</p>
+                        <p>"Wasze super-wizjery zostaną tymczasowo wyłączone! Aby zidentyfikować tajemnicze 'Kostki Mocy', musicie polegać na innym, niezwykle czułym sensorze, który każdy z Was posiada. Jak bez użycia wzroku rozpoznać, co kryje się w tych kostkach?"</p>
+                    </div>
+                    <div class="hidden-content mt-4">
+                        <h3 class="font-bold text-cyan-400 text-lg mb-2">Protokół Treningowy (Instrukcja):</h3>
+                        <ol class="list-decimal list-inside space-y-2 text-slate-300">
+                            <li>Przygotujcie małe, bezpieczne do spożycia próbki różnych produktów (np. kawałki owoców: jabłko, banan; warzyw: marchewka; inne: ser, krakers).</li>
+                            <li>Jeden z rekrutów aktywuje tryb "ślepego zaufania" (zasłonięte oczy).</li>
+                            <li>Dowódca Misji (dorosły) podaje po kolei "Kostki Mocy".</li>
+                            <li>Zadaniem rekruta jest natychmiastowa identyfikacja każdej substancji za pomocą smaku.</li>
+                        </ol>
+                        <h3 class="font-bold text-cyan-400 text-lg mt-4 mb-2">Wyjaśnienie Naukowe:</h3>
+                        <p class="text-slate-300">Na twoim języku są malutkie części nazywane **kubkami smakowymi**. One pomagają ci poczuć różne smaki: czy coś jest słodkie jak cukierek, słone jak chipsy, kwaśne jak cytryna, czy gorzkie jak lekarstwo. Kiedy jedzenie dotyka kubków smakowych, wysyłają one wiadomość do twojego mózgu, a mózg mówi ci, co jesz.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-700/50 p-4 text-right">
+                    <button class="toggle-button bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2 px-4 rounded-lg transition-colors">Pokaż Protokół</button>
+                </div>
+            </article>
+
+            <article class="bg-slate-800 rounded-lg shadow-md overflow-hidden border border-slate-700">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-amber-400 mb-3">🤸 Test 2: Próba Antygrawitacyjna</h2>
+                    <div class="prose prose-invert max-w-none text-slate-300">
+                        <p class="font-semibold text-lg">Twoja Misja, Młody Bohaterze (Wyzwanie):</p>
+                        <p>"Przed Wami specjalny metalowy pojemnik (puszka). Waszym zadaniem jest sprawić, by stanął on na swojej krawędzi, przeciwstawiając się sile grawitacji. Jak można zmodyfikować ten pojemnik, aby osiągnąć taką niestabilną równowagę, używając tylko tego, co macie pod ręką (np. wody)?"</p>
+                    </div>
+                    <div class="hidden-content mt-4">
+                        <h3 class="font-bold text-cyan-400 text-lg mb-2">Protokół Treningowy (Instrukcja):</h3>
+                        <ol class="list-decimal list-inside space-y-2 text-slate-300">
+                            <li>Zdobądź standardowy pojemnik treningowy (puszka po napoju).</li>
+                            <li>Wprowadź do niego niewielką ilość płynu stabilizującego (wody – około 1/4 do 1/3 wysokości).</li>
+                            <li>Ostrożnie manewruj pojemnikiem, próbując ustawić go na jego dolnej krawędzi.</li>
+                            <li>Dostosuj ilość płynu stabilizującego – to klucz do znalezienia idealnego punktu balansu!</li>
+                        </ol>
+                        <h3 class="font-bold text-cyan-400 text-lg mt-4 mb-2">Wyjaśnienie Naukowe:</h3>
+                        <p class="text-slate-300">Każdy przedmiot ma taki specjalny punkt, który nazywa się **środkiem ciężkości**. To trochę tak, jakby cała waga przedmiotu była zebrana w tym jednym miejscu. Kiedy wlewasz trochę wody do puszki, ten środek ciężkości przesuwa się. Jeśli uda ci się ustawić puszkę tak, żeby jej środek ciężkości był dokładnie nad krawędzią, na której stoi, puszka utrzyma równowagę i nie przewróci się.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-700/50 p-4 text-right">
+                    <button class="toggle-button bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2 px-4 rounded-lg transition-colors">Pokaż Protokół</button>
+                </div>
+            </article>
+
+            <article class="bg-slate-800 rounded-lg shadow-md overflow-hidden border border-slate-700">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-amber-400 mb-3">💧⚡ Test 3: Fuzja Hydrokinetyczna</h2>
+                    <div class="prose prose-invert max-w-none text-slate-300">
+                        <p class="font-semibold text-lg">Twoja Misja, Młody Bohaterze (Wyzwanie):</p>
+                        <p>"Oto dwa naczynia z różnymi płynami: Akwamaryną (kolorowa woda) i Złotym Nektarem (olej). Musicie sprawić, by zamieniły się miejscami w swoich naczyniach, ale uwaga – nie wolno ich po prostu przelać! Jak dokonać tej magicznej zamiany, mając do dyspozycji jedynie cienką, sztywną kartkę?"</p>
+                    </div>
+                    <div class="hidden-content mt-4">
+                        <h3 class="font-bold text-cyan-400 text-lg mb-2">Protokół Treningowy (Instrukcja):</h3>
+                        <ol class="list-decimal list-inside space-y-2 text-slate-300">
+                            <li>Przygotuj dwie identyczne naczynia treningowe (niskie szklanki). Jedno napełnij do połowy Akwamaryną, drugie Złotym Nektarem.</li>
+                            <li>Weź cienką tarczę energetyczną (sztywna karta, np. laminowana).</li>
+                            <li>Przykryj tarczą naczynie z Akwamaryną. Utrzymując tarczę, pewnym ruchem odwróć naczynie do góry dnem.</li>
+                            <li>Precyzyjnie umieść odwrócone naczynie z Akwamaryną na naczyniu ze Złotym Nektarem, tak aby ich krawędzie idealnie się stykały.</li>
+                            <li>Bardzo powoli i ostrożnie przesuń tarczę energetyczną, tworząc wąski kanał transferowy między naczyniami.</li>
+                            <li>Obserwuj, jak płyny mocy zamieniają się miejscami!</li>
+                        </ol>
+                        <h3 class="font-bold text-cyan-400 text-lg mt-4 mb-2">Wyjaśnienie Naukowe:</h3>
+                        <p class="text-slate-300">Woda jest cięższa od oleju, gdy weźmiemy taką samą ich ilość. Mówimy, że woda ma większą **gęstość**. Kiedy delikatnie usuniesz kartkę, cięższa woda zacznie opadać na dno, spychając lżejszy olej do góry. Kartka na początku trzyma wodę w szklance, bo powietrze na zewnątrz na nią naciska (to się nazywa **ciśnienie atmosferyczne**).</p>
+                    </div>
+                </div>
+                <div class="bg-slate-700/50 p-4 text-right">
+                    <button class="toggle-button bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2 px-4 rounded-lg transition-colors">Pokaż Protokół</button>
+                </div>
+            </article>
+            
+            <article class="bg-slate-800 rounded-lg shadow-md overflow-hidden border border-slate-700">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-amber-400 mb-3">🛡️🥚 Test 4: Przemiana Jaja Feniksa</h2>
+                    <div class="prose prose-invert max-w-none text-slate-300">
+                        <p class="font-semibold text-lg">Twoja Misja, Młody Bohaterze (Wyzwanie):</p>
+                        <p>"To jajo posiada twardą, zewnętrzną skorupę. Waszym zadaniem jest pozbycie się tej skorupy bez rozbijania jajka, używając jedynie zwykłego, kuchennego płynu. Jaki płyn mógłby 'rozpuścić' skorupkę i po jakim czasie można spodziewać się efektu?"</p>
+                    </div>
+                    <div class="hidden-content mt-4">
+                         <h3 class="font-bold text-cyan-400 text-lg mb-2">Protokół Treningowy (Instrukcja):</h3>
+                        <ol class="list-decimal list-inside space-y-2 text-slate-300">
+                           <li>Delikatnie umieść jajo (lub dwa) w komorze transformacyjnej (słoik/szklanka).</li>
+                           <li>Zalej jajo Rozpuszczalnikiem Kwasowym (octem) tak, aby było całkowicie zanurzone.</li>
+                           <li>Obserwuj – na skorupie rozpoczną się mikrowybuchy (bąbelki).</li>
+                           <li>Pozostaw jajo w komorze na co najmniej 24 godziny.</li>
+                           <li>Po tym czasie ostrożnie wyjmij Rdzeń Energii i opłucz pod wodą.</li>
+                        </ol>
+                        <h3 class="font-bold text-cyan-400 text-lg mt-4 mb-2">Wyjaśnienie Naukowe:</h3>
+                        <p class="text-slate-300">Skorupka jajka jest zrobiona z **węglanu wapnia**. Ocet to kwas, który go **rozpuszcza**. Podczas tego rozpuszczania powstają bąbelki – to gaz, dwutlenek węgla. Po jednym dniu twarda skorupka znika i zostaje tylko miękka błonka, a jajko staje się trochę jak gumowa piłeczka.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-700/50 p-4 text-right">
+                    <button class="toggle-button bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2 px-4 rounded-lg transition-colors">Pokaż Protokół</button>
+                </div>
+            </article>
+            
+            <article class="bg-slate-800 rounded-lg shadow-md overflow-hidden border border-slate-700">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-amber-400 mb-3">🎨🌀 Test 5: Aktywacja Pryzmatu Mocy</h2>
+                    <div class="prose prose-invert max-w-none text-slate-300">
+                        <p class="font-semibold text-lg">Twoja Misja, Młody Bohaterze (Wyzwanie):</p>
+                        <p>"Te kolorowe Dyski Mocy (cukierki) skrywają w sobie tęczową energię. Jak uwolnić ją na tej platformie (talerzu), aby stworzyć piękny, kolorowy wzór, używając tylko jednego, prostego płynu?"</p>
+                    </div>
+                    <div class="hidden-content mt-4">
+                        <h3 class="font-bold text-cyan-400 text-lg mb-2">Protokół Treningowy (Instrukcja):</h3>
+                        <ol class="list-decimal list-inside space-y-2 text-slate-300">
+                           <li>Na białej platformie testowej (płaski talerz) ułóż Dyski Mocy (cukierki) w okrąg blisko krawędzi.</li>
+                           <li>Bardzo precyzyjnie zaaplikuj na środek platformy niewielką ilość wody – tylko tyle, aby dotknęła Dyskó Mocy.</li>
+                           <li>Cierpliwie obserwuj, jak kolory emanują z dysków.</li>
+                        </ol>
+                        <h3 class="font-bold text-cyan-400 text-lg mt-4 mb-2">Wyjaśnienie Naukowe:</h3>
+                        <p class="text-slate-300">Kolorowa skorupka na cukierkach jest zrobiona z cukru i barwników. Kiedy dodajesz wody, **rozpuszczają** się w niej. Potem rozpuszczone kolory "rozchodzą się" po wodzie od cukierka w kierunku środka talerza. To się nazywa **dyfuzja**.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-700/50 p-4 text-right">
+                    <button class="toggle-button bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2 px-4 rounded-lg transition-colors">Pokaż Protokół</button>
+                </div>
+            </article>
+
+            <article class="bg-slate-800 rounded-lg shadow-md overflow-hidden border border-slate-700">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-amber-400 mb-3">📜💧 Test 6: Aktywacja Ukrytego Symbolu Mocy</h2>
+                    <div class="prose prose-invert max-w-none text-slate-300">
+                        <p class="font-semibold text-lg">Twoja Misja, Młody Bohaterze (Wyzwanie):</p>
+                        <p>"Na tym złożonym zwoju (chusteczce) ukryty jest tajny symbol. Jak sprawić, by zwój sam się rozwinął i ujawnił pełny znak, używając jedynie mocy zwykłej wody?"</p>
+                    </div>
+                     <div class="hidden-content mt-4">
+                        <h3 class="font-bold text-cyan-400 text-lg mb-2">Protokół Treningowy (Instrukcja):</h3>
+                        <ol class="list-decimal list-inside space-y-2 text-slate-300">
+                           <li>Weź kwadratowy kawałek ręcznika papierowego. Złóż go na pół, a potem jeszcze raz na pół.</li>
+                           <li>Na wierzchu narysuj flamastrami tylko kawałek symbolu.</li>
+                           <li>Rozłóż chusteczkę jeden raz. Na tej wewnętrznej części dokończ swój rysunek.</li>
+                           <li>Ponownie złóż chusteczkę tak, jak była na początku.</li>
+                           <li>Przygotuj talerz z niewielką ilością wody.</li>
+                           <li>Ostrożnie połóż złożoną chusteczkę na powierzchni wody i obserwuj!</li>
+                        </ol>
+                        <h3 class="font-bold text-cyan-400 text-lg mt-4 mb-2">Wyjaśnienie Naukowe:</h3>
+                        <p class="text-slate-300">Ręcznik papierowy jest zrobiony z malutkich włókienek. Kiedy papier dotyka wody, woda wsiąka w te włókienka i podróżuje między nimi. To zjawisko nazywa się **kapilarnością**. Gdy papier nasiąka wodą, staje się cięższy, a zgięcia się prostują, odsłaniając ukryty rysunek.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-700/50 p-4 text-right">
+                    <button class="toggle-button bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2 px-4 rounded-lg transition-colors">Pokaż Protokół</button>
+                </div>
+            </article>
+            
+            <article class="bg-slate-800 rounded-lg shadow-md overflow-hidden border border-slate-700">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-amber-400 mb-3">🧪🌋 Test 7: Stworzenie Wirującej Magmy Mocy</h2>
+                    <div class="prose prose-invert max-w-none text-slate-300">
+                        <p class="font-semibold text-lg">Twoja Misja, Młody Bohaterze (Wyzwanie):</p>
+                        <p>"W tej wysokiej szklanicy jest olej. Waszym zadaniem jest stworzenie w nim ruchomych, kolorowych bąbli jak w lampie lawowej. Jakie dwa inne, proste składniki (jeden płynny, jeden sypki) możecie dodać, aby wywołać ten efekt?"</p>
+                    </div>
+                     <div class="hidden-content mt-4">
+                        <h3 class="font-bold text-cyan-400 text-lg mb-2">Protokół Treningowy (Instrukcja):</h3>
+                        <ol class="list-decimal list-inside space-y-2 text-slate-300">
+                           <li>Napełnij wysoką szklankę w około 3/4 olejem roślinnym.</li>
+                           <li>W osobnym naczyniu wymieszaj ocet z barwnikiem spożywczym.</li>
+                           <li>Powoli wlej zabarwiony ocet do szklanki z olejem. Ocet opadnie na dno.</li>
+                           <li>Ostrożnie wsyp do szklanki łyżeczkę sody oczyszczonej.</li>
+                           <li>Obserwuj, jak kolorowe bąble zaczynają się unosić i opadać.</li>
+                        </ol>
+                        <h3 class="font-bold text-cyan-400 text-lg mt-4 mb-2">Wyjaśnienie Naukowe:</h3>
+                        <p class="text-slate-300">Ocet jest cięższy od oleju, więc opada na dno. Kiedy dodajesz sodę, reaguje ona z octem tworząc gaz – **dwutlenek węgla**. Bąbelki tego gazu są lekkie, unoszą do góry kropelki kolorowego octu. Na górze gaz ucieka, a cięższy ocet znów opada na dno.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-700/50 p-4 text-right">
+                    <button class="toggle-button bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2 px-4 rounded-lg transition-colors">Pokaż Protokół</button>
+                </div>
+            </article>
+
+            <article class="bg-slate-800 rounded-lg shadow-md overflow-hidden border border-slate-700">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-amber-400 mb-3">💧🛡️ Test 8: Hydro-Tarcza</h2>
+                     <div class="prose prose-invert max-w-none text-slate-300">
+                        <p class="font-semibold text-lg">Twoja Misja, Młody Bohaterze (Wyzwanie):</p>
+                        <p>"Jak sprawić, by ta lekka piłeczka pingpongowa zatkała wylot butelki pełnej wody, gdy odwrócimy ją do góry nogami? Nie możecie użyć kleju!"</p>
+                    </div>
+                     <div class="hidden-content mt-4">
+                        <h3 class="font-bold text-cyan-400 text-lg mb-2">Protokół Treningowy (Instrukcja):</h3>
+                        <ol class="list-decimal list-inside space-y-2 text-slate-300">
+                           <li>Umieść piłeczkę pingpongową w otworze butelki z wąską szyjką.</li>
+                           <li>Napełnij butelkę wodą do pełna.</li>
+                           <li>Szybkim ruchem odwróć butelkę do góry nogami nad miską.</li>
+                           <li>Obserwuj, czy piłeczka stworzyła niezniszczalną pieczęć!</li>
+                        </ol>
+                        <h3 class="font-bold text-cyan-400 text-lg mt-4 mb-2">Wyjaśnienie Naukowe:</h3>
+                        <p class="text-slate-300">Powietrze, które jest wszędzie wokół nas, naciska na piłeczkę od spodu (to **ciśnienie atmosferyczne**). Nacisk powietrza od dołu jest wystarczająco silny, by utrzymać lekką piłeczkę w otworze i nie pozwolić wodzie się wylać.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-700/50 p-4 text-right">
+                    <button class="toggle-button bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2 px-4 rounded-lg transition-colors">Pokaż Protokół</button>
+                </div>
+            </article>
+
+            <article class="bg-slate-800 rounded-lg shadow-md overflow-hidden border border-slate-700">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-amber-400 mb-3">🖐️💨 Test 9: Psycho-Kinetyczny Chwyt</h2>
+                     <div class="prose prose-invert max-w-none text-slate-300">
+                        <p class="font-semibold text-lg">Twoja Misja, Młody Bohaterze (Wyzwanie):</p>
+                        <p>"Jak, używając jedynie mocy płomienia (świeczki), szklanki i odrobiny wody, sprawić, by szklanka 'przyssała' się do talerzyka tak mocno, że podniesie go razem ze sobą?"</p>
+                    </div>
+                     <div class="hidden-content mt-4">
+                        <h3 class="font-bold text-cyan-400 text-lg mb-2">Protokół Treningowy (Instrukcja):</h3>
+                        <ol class="list-decimal list-inside space-y-2 text-slate-300">
+                           <li>Na małym talerzyku umieść trochę wody lub mokry ręcznik papierowy.</li>
+                           <li>Na środku postaw małą świeczkę (tealight) i zapal ją.</li>
+                           <li>Ostrożnie przykryj płonącą świeczkę szklanką.</li>
+                           <li>Poczekaj, aż świeczka zgaśnie.</li>
+                           <li>Spróbuj delikatnie podnieść szklankę – talerzyk uniesie się razem z nią!</li>
+                        </ol>
+                        <h3 class="font-bold text-cyan-400 text-lg mt-4 mb-2">Wyjaśnienie Naukowe:</h3>
+                        <p class="text-slate-300">Kiedy świeczka gaśnie pod szklanką, powietrze w środku szybko się ochładza i kurczy. Przez to wewnątrz szklanki robi się niższe **ciśnienie** niż na zewnątrz. Powietrze z zewnątrz mocniej naciska na szklankę i talerzyk, "przysysając" je do siebie.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-700/50 p-4 text-right">
+                    <button class="toggle-button bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2 px-4 rounded-lg transition-colors">Pokaż Protokół</button>
+                </div>
+            </article>
+
+            <article class="bg-slate-800 rounded-lg shadow-md overflow-hidden border border-slate-700">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-amber-400 mb-3">🎈💨 Test 10: Generator Nagłego Nadmuchu</h2>
+                     <div class="prose prose-invert max-w-none text-slate-300">
+                        <p class="font-semibold text-lg">Twoja Misja, Młody Bohaterze (Wyzwanie):</p>
+                        <p>"Ten balon musi zostać szybko napełniony, ale nie możecie użyć płuc! Jakie dwa proste składniki z kuchni po połączeniu w butelce wytworzą gaz i nadmuchają balon?"</p>
+                    </div>
+                     <div class="hidden-content mt-4">
+                        <h3 class="font-bold text-cyan-400 text-lg mb-2">Protokół Treningowy (Instrukcja):</h3>
+                        <ol class="list-decimal list-inside space-y-2 text-slate-300">
+                           <li>Do pustej butelki wlej niewielką ilość octu.</li>
+                           <li>Do balona wsyp ostrożnie 1-2 łyżeczki sody oczyszczonej.</li>
+                           <li>Nałóż wylot balona na szyjkę butelki, tak aby soda nie wsypała się do środka.</li>
+                           <li>Gdy system jest zabezpieczony, unieś balon tak, aby soda wsypała się do octu.</li>
+                           <li>Obserwuj błyskawiczną inflację!</li>
+                        </ol>
+                        <h3 class="font-bold text-cyan-400 text-lg mt-4 mb-2">Wyjaśnienie Naukowe:</h3>
+                        <p class="text-slate-300">Kiedy ocet miesza się z sodą oczyszczoną, zachodzi między nimi **reakcja chemiczna**. Powstaje gaz – **dwutlenek węgla**. To ten sam gaz, co w napojach gazowanych. Ponieważ robi się go dużo i szybko, wlatuje do balona i go nadmuchuje.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-700/50 p-4 text-right">
+                    <button class="toggle-button bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2 px-4 rounded-lg transition-colors">Pokaż Protokół</button>
+                </div>
+            </article>
+
+            <article class="bg-slate-800 rounded-lg shadow-md overflow-hidden border border-amber-500/50">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-amber-400 mb-3">🌋💥 Test Finałowy 11: Erupcja Super-Piany</h2>
+                    <div class="prose prose-invert max-w-none text-slate-300">
+                        <p class="font-semibold text-lg">Twoja Misja, Młody Bohaterze (Wyzwanie):</p>
+                        <p>"Nadszedł czas na ostateczny pokaz mocy! Jak stworzyć gigantyczną, pienistą erupcję, używając wody utlenionej, czegoś, co przyspieszy reakcję (drożdży) i czegoś, co pomoże stworzyć pianę (płynu do mycia naczyń)?"</p>
+                    </div>
+                     <div class="hidden-content mt-4">
+                        <h3 class="font-bold text-cyan-400 text-lg mb-2">Protokół Treningowy (Instrukcja):</h3>
+                        <div class="bg-red-900/50 border-l-4 border-red-500 text-red-200 p-4 rounded-r-lg mb-4">
+                            <p><strong class="font-bold">Uwaga Dowódcy Misji:</strong> Pamiętaj o procedurach bezpieczeństwa! Użyj tacy do zebrania piany. Przy wodzie utlenionej o stężeniu wyższym niż 6% wymagane są rękawiczki i okulary ochronne.</p>
+                        </div>
+                        <ol class="list-decimal list-inside space-y-2 text-slate-300">
+                           <li>W małym naczyniu wymieszaj 1 łyżeczkę suchych drożdży z niewielką ilością ciepłej wody. Odczekaj 5 minut.</li>
+                           <li>Do wysokiej, wąskiej butelki wlej około pół szklanki wody utlenionej (6%).</li>
+                           <li>Dodaj barwnik spożywczy i solidną dawkę płynu do mycia naczyń. Delikatnie wymieszaj.</li>
+                           <li>Wlej aktywowane drożdże do butelki i... przygotujcie się na pokaz mocy!</li>
+                        </ol>
+                        <h3 class="font-bold text-cyan-400 text-lg mt-4 mb-2">Wyjaśnienie Naukowe:</h3>
+                        <p class="text-slate-300">W drożdżach jest enzym, który działa jak super pomocnik. Powoduje on, że woda utleniona BARDZO SZYBKO rozkłada się na wodę i gaz – tlen. Płyn do mycia naczyń łapie te wszystkie bąbelki tlenu i tworzy z nich ogromną ilość piany. Reakcja ta uwalnia też ciepło.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-700/50 p-4 text-right">
+                    <button class="toggle-button bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2 px-4 rounded-lg transition-colors">Pokaż Protokół</button>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <footer class="text-center py-6 mt-8 border-t border-slate-800">
+        <p class="text-slate-500">Misja Zakończona! Gratulacje, Superbohaterowie!</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggleButtons = document.querySelectorAll('.toggle-button');
+
+            toggleButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const article = this.closest('article');
+                    const content = article.querySelector('.hidden-content');
+                    
+                    if (content.style.display === 'block') {
+                        content.style.display = 'none';
+                        this.textContent = 'Pokaż Protokół';
+                        this.classList.remove('bg-amber-600', 'hover:bg-amber-500');
+                        this.classList.add('bg-cyan-600', 'hover:bg-cyan-500');
+                    } else {
+                        content.style.display = 'block';
+                        this.textContent = 'Ukryj Protokół';
+                        this.classList.remove('bg-cyan-600', 'hover:bg-cyan-500');
+                        this.classList.add('bg-amber-600', 'hover:bg-amber-500');
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
